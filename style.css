@@ -1,7 +1,56 @@
-h1 { 
-    color: blue;
-    font-family: sans-serif;
-    font-size: 50px;
+body{
+    background-color:powderblue;
+}
+.box {
+    background-color:chocolate;
     text-align: center;
-    text-decoration: underline;
+    padding: 50px;
+    font-family: sans-serif;
+    color:white ;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 20px;
+    width: 150px;
+}
+.box2 {
+    background-color: cadetblue;
+    text-align: center;
+    padding: 25px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 80px;
+    border-radius: 50px;
+    border-left: 5px solid;
+    width: 200px;    
+}
+.box3 {
+    background-color: chocolate;
+    text-align: left;
+    padding: 25px;
+    font-family: sans-serif;
+    color: white;
+    border-radius: 50px;
+    width: 500px;
+    margin-left: 300px;
+    
+}
+.box4 {
+    background-color: cadetblue;
+    text-align: center;
+    padding: 25px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 80px;
+    border-radius: 50px;
+    border-left: 5px solid;
+    width: 200px;
+}
+.box5 {
+    background-color: chocolate;
+    text-align: left;
+    padding: 25px;
+    font-family: sans-serif;
+    color: white;
+    border-radius: 50px;
+    width: 500px;
 }
