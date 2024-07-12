@@ -9,14 +9,20 @@ body {
 }
 .nav-item {
     display: inline-block;
-    padding: 30px
+    padding: 20px
 }
 .nav-link {
     color: #b3b3b3;
     text-decoration: none;
     font-size: 20px;
-    font-family: tahoma;
-    padding-left: 90px;
+    font-family: Verdana;
+    padding: 20px;
+    border-radius: 0;
+    transition: border-radius 0.5s, background-color 0.5s;
+}
+.nav-link:hover {
+    background-color: #131212;
+    border-radius: 15px;
 }
 .flexbox {
     display: flex;
@@ -24,11 +30,11 @@ body {
 }
 .flex-item:first-child {
     background-color: #131212;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-left: 250px;
     width: 450px;
     height: 300px;
-    padding-top: 70px;
+    padding-top: 50px;
     padding-left: 50px;
     border-radius: 0px 0px 0px 40px;
 }
@@ -41,9 +47,10 @@ img{
     height: 300px;
     border-radius: 50%;
     box-shadow: 15px 10px 10px 5px #333131;
+    border: 2px solid #b3b3b3 ;
 }
 .content{
     font-size: 55px;
-    font-family: arial;
+    font-family: tahoma;
     color: #d4d4d4;
 }
